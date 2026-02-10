@@ -2,7 +2,7 @@
 
 @section('contenido')
 
-<!-- HERO (imagen grande superior) -->
+<!-- imagen grande superior -->
 <div class="hero">
     <div class="hero-overlay text-center">
         <h1 class="display-4"> Horizonte Viajero</h1>
