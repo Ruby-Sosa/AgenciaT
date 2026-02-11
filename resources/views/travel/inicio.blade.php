@@ -13,7 +13,7 @@
     </div>
 </div>
 
-<!-- CONTENIDO -->
+<!-- CONTENIDO //pasar a componentes y los h se pasaran a href (Titulo, descripcion, imagen)--> 
 <div class="container mt-5">
 
     <h2 class="section-title mb-4 text-center">

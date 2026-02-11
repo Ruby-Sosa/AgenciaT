@@ -30,17 +30,17 @@ Route::get('/principal', function () {
     return "Bienvenido a Horizonte Viajero";
 });
 
-/* Solo números */
+
 Route::get('/destino/{id}', function ($id = null) {
     return "Destino seleccionado en Horizonte Viajero: {$id}";
 })->where('id', '[0-9]+');
 
-/* Solo texto */
+
 Route::get('/destino/nombre/{nombre}', function ($nombre = null) {
     return "Destino seleccionado: {$nombre}";
 })->where('nombre', '\w+');
 
-/* Parámetro opcional */
+
 Route::get('/paquete/{nombre?}', function ($nombre = null) {
 
     if (($nombre == null) || empty($nombre)) {
