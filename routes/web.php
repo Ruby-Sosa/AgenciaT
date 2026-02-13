@@ -26,6 +26,9 @@ Route::get('/llamado', [PostController::class, 'llamado_componente']);
 
 Route::get('/principalpagina', [PostController::class, 'principal']);
 
+Route::get('/destino/{nombre}', [TravelController::class, 'destino']);
+
+
 Route::get('/principal', function () {
     return "Bienvenido a Horizonte Viajero";
 });
