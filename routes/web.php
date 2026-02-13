@@ -19,13 +19,6 @@ Route::get('/paquetes', [TravelController::class, 'paquetes']);
 /* Contacto */
 Route::get('/contacto', [TravelController::class, 'contacto']);
 
-
-Route::get('/mensaje', [PostController::class, 'Mensaje']);
-
-Route::get('/llamado', [PostController::class, 'llamado_componente']);
-
-Route::get('/principalpagina', [PostController::class, 'principal']);
-
 Route::get('/destino/{nombre}', [TravelController::class, 'destino']);
 
 
